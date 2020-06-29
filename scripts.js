@@ -1,4 +1,4 @@
-if ( localStorage.getItem('mood')=="night") { 
+    if ( localStorage.getItem('mood')=="night") { 
             var element = document.getElementById("inlineCheckbox1");
             element.setAttribute("checked", "true"); 
         }  
@@ -37,4 +37,4 @@ if ( localStorage.getItem('mood')=="night") {
 
 
             }  
-        });  
+        });
