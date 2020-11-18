@@ -7,7 +7,7 @@ body{
   background: #111;
   text-align: center;
 }
-.wrapper{
+.wrapperjehad{
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -15,7 +15,7 @@ body{
   align-items: center;
   justify-content: center;
 }
-.button{
+.buttonjehad{
   touch-callout: none;
   user-select: none;
   display: inline-block;
@@ -51,7 +51,7 @@ body{
   }  
 }
 
-.button:hover{
+.buttonjehad:hover{
   opacity: 1;
   .button__text{
     animation: fx-text .3s ease-out;
@@ -64,7 +64,7 @@ body{
   }    
 }
 
-.button:active{
+.buttonjehad:active{
   opacity: 1;
   background: white;
   color: inherit;
